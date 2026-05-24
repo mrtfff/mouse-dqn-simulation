@@ -1,0 +1,26 @@
+# Virtual environments
+.venv/
+.venv*/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Pre-trained checkpoints (regenerate locally)
+saved_models/*.pth
+saved_models/*.json
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+.DS_Store
